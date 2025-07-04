@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: rgb(89, 245, 58);
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+label {
+    gap: 4px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: rgb(224, 45, 224);
+}
+h2 {
+    text-align: center;
+    color: gold;
+}
