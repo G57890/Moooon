@@ -2,10 +2,12 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier;
 }
 h1 {
-    color: rgb(89, 245, 58);
+    color: blueviolet;
     text-align: center;
+    font-size: 30px;
 }
 div {
     display: flex;
@@ -14,7 +16,7 @@ div {
 }
 label {
     gap: 4px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     display: flex;
     margin: auto;
@@ -23,4 +25,13 @@ label {
 h2 {
     text-align: center;
     color: gold;
+}
+
+button {
+    border-radius: 30px;
+    background-color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
 }
